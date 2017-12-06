@@ -1,0 +1,21 @@
+id,brand,colour,date_of_first_registration,model,place_of_first_registration
+1,Peugeot,black,2009-08-16,406,Warszawa
+2,Toyota,silver,2013-01-08,"RAV 4",Poznań
+3,BMW,red,2016-11-04,M3,Sopot
+4,Seat,red,2017-02-23,"Leon Cupra",Warszawa
+5,Seat,white,2002-03-11,Ibiza,Lublin
+6,Kia,silver,2014-12-20,Ceed,Rzeszów
+7,Volkswagen,blue,2012-10-10,Passat,Wrocław
+8,BMW,black,2008-02-04,X5,Warszawa
+9,Audi,silver,2015-07-18,A6,Rzeszów
+10,Ford,white,2001-09-27,Fiesta,Lublin
+11,Citroen,red,2008-05-14,C4,Wrocław
+12,Toyota,blue,2011-08-24,Avensis,Gdańsk
+13,Ford,blue,2010-06-18,Mondeo,Warszawa
+14,Audi,white,2013-03-09,Q7,Poznań
+15,Volkswagen,silver,2006-10-25,Touran,Rzeszów
+16,Fiat,yellow,2017-07-19,Tipo,Poznań
+17,Nissan,white,2015-09-11,Almera,Sopot
+18,Honda,silver,2013-09-18,Accord,Rzeszów
+22,Honda,black,2012-05-30,Jazz,Warszawa
+24,Honda,black,2012-05-30,CRV,Warszawa
