@@ -1,4 +1,4 @@
-package com.robertrakoski.sintratest;
+package com.robertrakoski;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
