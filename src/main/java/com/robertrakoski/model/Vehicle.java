@@ -13,29 +13,38 @@ import javax.validation.constraints.NotNull;
 
 import org.hibernate.validator.constraints.NotBlank;
 
+/**
+ * The class representing vehicles. 
+ * It stores data like: id, brand, model, colour,
+ * date of first registration, place of first registration.
+ * 
+ * Contains Hibernate annotations for database.
+ * @author rupertoss
+ *
+ */
 @Entity
 @Table(name = "vehicles")
 public class Vehicle {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Long id;
+	private Long id;		//vehicle id - Primary Key
 	
 	@NotBlank
-	private String brand;
+	private String brand;	//vehicle brand - cannot be null
 	
 	@NotBlank
-	private String model;
+	private String model;	//vehicle model - cannot be null
 	
 	@NotBlank
-	private String colour;
+	private String colour;	//vehicle colour - cannot be null
 	
 	@NotNull
 	@Temporal(TemporalType.DATE)
-	private Date dateOfFirstRegistration;
+	private Date dateOfFirstRegistration;	//vehicle date of first registration - cannot be null
 	
 	@NotBlank
-	private String placeOfFirstRegistration;
+	private String placeOfFirstRegistration; //vehicle place of first registration - cannot be null
 
 	public Long getId() {
 		return id;
